@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/120503tz/interior-ai.git/static/css/main.bf52a4a3.css",
-    "main.js": "/120503tz/interior-ai.git/static/js/main.5eb78ea2.js",
-    "static/js/977.f40a8114.chunk.js": "/120503tz/interior-ai.git/static/js/977.f40a8114.chunk.js",
-    "static/js/732.3baa934e.chunk.js": "/120503tz/interior-ai.git/static/js/732.3baa934e.chunk.js",
-    "index.html": "/120503tz/interior-ai.git/index.html",
-    "main.bf52a4a3.css.map": "/120503tz/interior-ai.git/static/css/main.bf52a4a3.css.map",
-    "main.5eb78ea2.js.map": "/120503tz/interior-ai.git/static/js/main.5eb78ea2.js.map",
-    "977.f40a8114.chunk.js.map": "/120503tz/interior-ai.git/static/js/977.f40a8114.chunk.js.map",
-    "732.3baa934e.chunk.js.map": "/120503tz/interior-ai.git/static/js/732.3baa934e.chunk.js.map"
+    "main.css": "/interior-ai/static/css/main.bf52a4a3.css",
+    "main.js": "/interior-ai/static/js/main.fb6b139c.js",
+    "static/js/977.f40a8114.chunk.js": "/interior-ai/static/js/977.f40a8114.chunk.js",
+    "static/js/732.3baa934e.chunk.js": "/interior-ai/static/js/732.3baa934e.chunk.js",
+    "index.html": "/interior-ai/index.html",
+    "main.bf52a4a3.css.map": "/interior-ai/static/css/main.bf52a4a3.css.map",
+    "main.fb6b139c.js.map": "/interior-ai/static/js/main.fb6b139c.js.map",
+    "977.f40a8114.chunk.js.map": "/interior-ai/static/js/977.f40a8114.chunk.js.map",
+    "732.3baa934e.chunk.js.map": "/interior-ai/static/js/732.3baa934e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf52a4a3.css",
-    "static/js/main.5eb78ea2.js"
+    "static/js/main.fb6b139c.js"
   ]
 }
