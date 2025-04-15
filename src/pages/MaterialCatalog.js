@@ -2,65 +2,77 @@ import React from 'react';
 
 const materials = [
   {
-    name: 'Oak Wood',
-    type: 'Flooring',
-    image: 'https://via.placeholder.com/400x150.png?text=Oak+Wood'
+    name: "Oak Wood",
+    type: "Flooring",
+    image: "https://liberon.co.uk/wp-content/uploads/2016/11/oak-613x345.png",
+    alt: "Natural oak wood floor with light grain"
   },
   {
-    name: 'White Marble',
-    type: 'Countertop',
-    image: 'https://via.placeholder.com/400x150.png?text=White+Marble'
+    name: "White Marble",
+    type: "Countertop",
+    image: "https://www.replicasurfaces.com/cdn/shop/products/white-marble-1_800x.png?v=1721768104",
+    alt: "White marble surface with light gray veining"
   },
   {
-    name: 'Velvet',
-    type: 'Upholstery',
-    image: 'https://via.placeholder.com/400x150.png?text=Velvet'
+    name: "Velvet",
+    type: "Upholstery",
+    image: "https://i.ebayimg.com/images/g/vE8AAOSwWdhjZSaQ/s-l1200.jpg",
+    alt: "Soft purple velvet fabric texture"
   },
   {
-    name: 'Matte Black Finish',
-    type: 'Appliance Finish',
-    image: 'https://via.placeholder.com/400x150.png?text=Matte+Black'
+    name: "Matte Black Finish",
+    type: "Appliance Finish",
+    image: "https://www.forgeline.com/product_images/forgeline/MatteBlack-large-366--v.jpg",
+    alt: "Matte black surface with brushed metal texture"
   },
   {
-    name: 'Bamboo',
-    type: 'Flooring',
-    image: 'https://via.placeholder.com/400x150.png?text=Bamboo'
+    name: "Bamboo",
+    type: "Flooring",
+    image: "https://lumberliquidators.com/cdn/shop/files/10047931_rs.jpg?v=1744438062&width=1500",
+    alt: "Smooth bamboo wood planks in golden tone"
   },
   {
-    name: 'Granite',
-    type: 'Countertop',
-    image: 'https://via.placeholder.com/400x150.png?text=Granite'
+    name: "Granite",
+    type: "Countertop",
+    image: "https://www.megagranite.com/wp-content/uploads/2023/01/Royal-White-Granite-1024x683-1.jpeg",
+    alt: "Granite kitchen surface in dark gray and white"
   },
   {
-    name: 'Suede',
-    type: 'Upholstery',
-    image: 'https://via.placeholder.com/400x150.png?text=Suede'
+    name: "Suede",
+    type: "Upholstery",
+    image: "https://i.etsystatic.com/10618834/r/il/3c2cce/3818839075/il_570xN.3818839075_6msh.jpg",
+    alt: "Soft brown suede fabric with texture detail"
   },
   {
-    name: 'Glass',
-    type: 'Tabletop',
-    image: 'https://via.placeholder.com/400x150.png?text=Glass'
+    name: "Glass",
+    type: "Tabletop",
+    image: "https://cdn.shopify.com/s/files/1/0555/4271/0370/files/Rectangle-clear-glass-table-with-pipe-base_page.jpg?v=1656613166",
+    alt: "Transparent frosted glass surface"
   },
   {
-    name: 'Chrome',
-    type: 'Metal Finish',
-    image: 'https://via.placeholder.com/400x150.png?text=Chrome'
+    name: "Chrome",
+    type: "Metal Finish",
+    image: "https://t4.ftcdn.net/jpg/06/13/22/73/360_F_613227360_SJOYFdjVbXYbcgkjhEp4ZiRnvQEMygDj.jpg",
+    alt: "Reflective chrome surface texture"
   },
   {
-    name: 'Linen',
-    type: 'Fabric',
-    image: 'https://via.placeholder.com/400x150.png?text=Linen'
+    name: "Linen",
+    type: "Fabric",
+    image: "https://steamerystockholm.com/site/assets/cms/images/cache/maite-onate-AXWyDjC_Y3U-unsplash_w800.jpg",
+    alt: "Light beige linen fabric close-up"
   },
   {
-    name: 'Reclaimed Wood',
-    type: 'Wall Paneling',
-    image: 'https://via.placeholder.com/400x150.png?text=Reclaimed+Wood'
+    name: "Reclaimed Wood",
+    type: "Wall Paneling",
+    image: "https://centennialwoods.com/cdn/shop/products/reclaimed-wood-planks-cody-finish_1020x.progressive.jpg?v=1715379671",
+    alt: "Rustic reclaimed wood wall with visible wear"
   },
   {
-    name: 'Terracotta Tile',
-    type: 'Floor Tile',
-    image: 'https://via.placeholder.com/400x150.png?text=Terracotta'
-  },
+    name: "Terracotta Tile",
+    type: "Floor Tile",
+    image: "https://rusticotile.com/wp-content/uploads/2018/09/antique_terracotta_grout.jpg",
+    alt: "Reddish-brown terracotta tiles with natural texture"
+  }
 ];
 
 export default function MaterialCatalog() {
@@ -87,12 +99,15 @@ export default function MaterialCatalog() {
           >
             <img
               src={mat.image}
-              alt={mat.name}
+              alt={mat.alt}
               style={{
                 width: '100%',
                 height: '150px',
                 objectFit: 'cover',
                 transition: '0.3s ease-in-out',
+              }}
+              onError={(e) => {
+                e.currentTarget.src = 'https://via.placeholder.com/400x150.png?text=Image+Unavailable';
               }}
             />
             <div style={{ padding: '12px' }}>
@@ -105,6 +120,7 @@ export default function MaterialCatalog() {
     </div>
   );
 }
+
 
 
 
