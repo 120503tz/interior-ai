@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/interior-ai/static/css/main.bf52a4a3.css",
-    "main.js": "/interior-ai/static/js/main.fb6b139c.js",
+    "main.js": "/interior-ai/static/js/main.7576342f.js",
     "static/js/977.f40a8114.chunk.js": "/interior-ai/static/js/977.f40a8114.chunk.js",
     "static/js/732.3baa934e.chunk.js": "/interior-ai/static/js/732.3baa934e.chunk.js",
     "index.html": "/interior-ai/index.html",
     "main.bf52a4a3.css.map": "/interior-ai/static/css/main.bf52a4a3.css.map",
-    "main.fb6b139c.js.map": "/interior-ai/static/js/main.fb6b139c.js.map",
+    "main.7576342f.js.map": "/interior-ai/static/js/main.7576342f.js.map",
     "977.f40a8114.chunk.js.map": "/interior-ai/static/js/977.f40a8114.chunk.js.map",
     "732.3baa934e.chunk.js.map": "/interior-ai/static/js/732.3baa934e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf52a4a3.css",
-    "static/js/main.fb6b139c.js"
+    "static/js/main.7576342f.js"
   ]
 }
