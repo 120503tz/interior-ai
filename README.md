@@ -1,70 +1,70 @@
-# interior-ai# Getting Started with Create React App
+# Interior AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interior AI is a beginner-friendly interior design app created by Sienna Kirby & Tashon Zeigler. The goal was to build something that makes it easy for anyone to plan out room layouts, drop in furniture, and see how it would look — all from a simple web app.
 
-## Available Scripts
+This was built for a software engineering course and taught us a lot about React, 3D visualization, saving data, and deploying to GitHub Pages.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🔨 Features
+- 2D room layout tool
+- Click-to-spawn 3D furniture (basic models)
+- AI keyword-based design suggestions
+- Material catalog with real samples
+- Save/export your layout as a PDF
+- Share your design via link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Tech Stack
+- React.js
+- React Router
+- Three.js (@react-three/fiber + drei)
+- html2canvas + jsPDF
+- GitHub Pages for deployment
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 How to Run It
+1. Clone the repo:
+```bash
+git clone https://github.com/120503tz/interior-ai.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the app locally:
+```bash
+npm start
+```
+4. To deploy:
+```bash
+npm run deploy
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Challenges We Hit
+- Setting up React Router for GitHub Pages
+- Getting WebGL objects to load correctly
+- Making html2canvas actually capture what we needed
+- Accidentally pushing a secret key 😬 (GitHub saved us tho)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Future Plans
+- Drag-to-move furniture in 3D
+- Let users save their rooms in localStorage
+- Add real AI backend for better suggestions
+- Upload your own materials or floor textures
+- User accounts (stretch goal)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🙏 Credits
+Created by Sienna Kirby & Tashon Zeigler
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thanks to all the open-source tools we used and the docs that got us through the weird bugs 🙌
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
