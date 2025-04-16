@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
-import RoomLayout from '../pages/LayoutTool.js'; // adjust path if needed
+import RoomLayout from '../pages/LayoutTool.js'; 
 
 export default function SaveShare() {
   const captureRef = useRef(null);

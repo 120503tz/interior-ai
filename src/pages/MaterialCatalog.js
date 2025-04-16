@@ -86,15 +86,21 @@ export default function MaterialCatalog() {
         marginTop: '30px'
       }}>
         {materials.map((mat, index) => (
-          <div
+          <a
             key={index}
+            href={`https://www.google.com/search?q=buy+${encodeURIComponent(mat.name)}`}
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
+              textDecoration: 'none',
+              color: 'inherit',
               background: '#fff',
               borderRadius: '12px',
               boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
               overflow: 'hidden',
               transition: '0.3s',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              display: 'block'
             }}
           >
             <img
@@ -113,13 +119,15 @@ export default function MaterialCatalog() {
             <div style={{ padding: '12px' }}>
               <h4 style={{ marginBottom: '5px' }}>{mat.name}</h4>
               <p style={{ fontSize: '14px', color: '#666' }}>{mat.type}</p>
+              <p style={{ fontSize: '12px', color: '#888' }}>Click to explore prices</p>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
   );
 }
+
 
 
 

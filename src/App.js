@@ -5,6 +5,7 @@ import LayoutTool from './pages/LayoutTool';
 import Visualization from './pages/Visualization';
 import AIRecommendations from './pages/AIRecommendations';
 import MaterialCatalog from './pages/MaterialCatalog';
+import BudgetPlanner from './pages/BudgetPlanner';
 import SaveShare from './pages/SaveShare';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Link to="/ai">AI Suggestions</Link>
         <Link to="/materials">Catalog</Link>
         <Link to="/save">Save & Share</Link>
+        <Link to="/budget">Budget</Link>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,6 +27,7 @@ function App() {
         <Route path="/ai" element={<AIRecommendations />} />
         <Route path="/materials" element={<MaterialCatalog />} />
         <Route path="/save" element={<SaveShare />} />
+        <Route path="/budget" element={<BudgetPlanner />} />
       </Routes>
     </Router>
   );
