@@ -40,8 +40,24 @@ const suggestionData = [
       keyword: "coastal",
       suggestion: "Use whites, light blues, and natural textures for a fresh coastal look.",
       image: "https://www.thespruce.com/thmb/JeEzlN5pj7axT8OXEvjqm3hxDC4=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/beach-house-living-room-ideas-4126589-hero-514f741be8f54b0bad676e492610b639.jpg"
+    },
+    {
+      keyword: "kitchen",
+      suggestion: "Focus on functional layouts, durable countertops, and bright lighting in kitchens.",
+      image: "https://mobileimages.lowes.com/marketingimages/547c9a17-9d7f-4ba4-a8ed-5a361a63bbaf/kitchen-design-and-installation-og.png"
+    },
+    {
+      keyword: "bathroom",
+      suggestion: "Use calming colors, tile finishes, and maximize storage for a relaxing bathroom.",
+      image: "https://cdn.prod.website-files.com/6364ef371295f3a520bda51a/670ff7653917e78989392065_64623f69e1a39dcf3b266f97_wIMG_0675.webp"
+    },
+    {
+      keyword: "kids room",
+      suggestion: "Incorporate playful colors, storage, and safety-focused furniture in kids' rooms.",
+      image: "https://www.bhg.com/thmb/aklIO6Q1Ks5y2RHNRnvkETfcuG0=/1093x0/filters:no_upscale():strip_icc()/Kids-room-shelf-storage-DHXLtinwa0vAwx8VsHWuqk-9179766d229a458f8d0dad7cbd0df543.jpg"
     }
   ];
   
   export default suggestionData;
+  
   
