@@ -6,7 +6,7 @@ export default function Home() {
     <div
       style={{
         minHeight: '90vh',
-        background: 'linear-gradient(to right, #141e30, #243b55)',
+        background: 'linear-gradient(to right,rgb(203, 211, 226),rgb(180, 190, 201))',
         color: '#fff',
         display: 'flex',
         flexDirection: 'column',
